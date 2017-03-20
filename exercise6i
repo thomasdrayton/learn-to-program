@@ -1,0 +1,14 @@
+var1 = "stop"
+var2 = "start"
+
+puts var1.reverse
+puts var2
+puts (var1+var2).reverse
+
+puts "Say something to your boss\."
+
+comment = gets.chomp
+
+puts "WHADDAYA MEAN " + comment.upcase + " YOU\'RE FIRED\!"
+
+
