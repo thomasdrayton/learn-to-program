@@ -1,0 +1,7 @@
+
+=begin
+This program will calculate how many hours in a year
+=end
+
+puts 24*365
+
