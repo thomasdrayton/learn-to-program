@@ -1,1 +1,7 @@
-puts gets
+puts "What is your fav number\?"
+
+num = gets.chomp
+
+puts "isn't #{num.to_i+1} a better number\?"
+
+
