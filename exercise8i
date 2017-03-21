@@ -1,5 +1,19 @@
-array = [1,2,3]
+=begin
+This programme builds and sorts an array in alphabetical order
+=end
 
-array.each do |num|
- puts "I like the number " + num.to_s
+array = []
+
+puts "Please input the relevant objects into your array. Type end programme to end, and we will sort the words for you."
+
+while true
+	object = gets.chomp
+	if object == ""
+		break
+	end
+	array.push object
 end
+
+puts "Here is your sorted array\:"
+
+puts array.sort
