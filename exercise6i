@@ -11,4 +11,8 @@ comment = gets.chomp
 
 puts "WHADDAYA MEAN " + comment.upcase + " YOU\'RE FIRED\!"
 
+puts (5-2).abs
 
+puts rand
+
+puts rand(100)
