@@ -1,0 +1,5 @@
+array = [1,2,3]
+
+array.each do |num|
+ puts "I like the number " + num.to_s
+end
