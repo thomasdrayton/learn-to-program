@@ -1,0 +1,20 @@
+=begin
+This programme will return a value in Roman Numerals (early Roman Numerals) for a number between 1 and 3000
+=end
+
+def roman_numeral(number)
+	roman = ""
+	roman = roman + 'M' * (number/1000)
+	roman = roman + 'D' * (number%1000/500)
+	roman = roman + 'C' * (number%500/100)
+	roman = roman + 'L' * (number%100/50)
+	roman = roman + 'X' * (number%50/10)
+	roman = roman + 'V' * (number%10/5)
+	roman = roman + 'I' * (number%5/1)
+	roman
+end
+
+puts "Pick a number"
+number = gets.chomp
+puts (roman_numeral(number))
+
