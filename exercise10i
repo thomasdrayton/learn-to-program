@@ -1,0 +1,27 @@
+=begin
+this program will shuffle an array
+=end
+
+unshuffled_array=[]
+
+puts "What are your array inputs (enter to end)"
+
+while true
+	input = gets.chomp
+	if input == ""
+	break
+	end
+unshuffled_array.push input
+
+end
+
+puts "Your unshuffled array is\:"
+puts unshuffled_array
+
+puts "You\'re shuffled array is\:"
+puts unshuffled_array.shuffle
+
+
+
+
+
